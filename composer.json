@@ -5,7 +5,7 @@
       "url": "https://packagist.org"
     }
   ],
-  "name": "wildbit/postmark-php",
+  "name": "warm-welcome/postmark-php-ww",
   "license": "MIT",
   "description": "The officially supported client for Postmark (http://postmarkapp.com)",
   "require": {
