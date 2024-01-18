@@ -335,7 +335,7 @@ class PostmarkAdminClient extends PostmarkClientBase
      *
      * @throws PostmarkException
      */
-    public function createDomain(string $name, string $returnPathDomain = null): PostmarkDomainDetails
+    public function createDomain(string $name, string $returnPathDomain = null)
     {
         $body = [];
         $body['name'] = $name;
@@ -367,7 +367,7 @@ class PostmarkAdminClient extends PostmarkClientBase
      *
      * @throws PostmarkException
      */
-    public function deleteDomain(int $id): PostmarkResponse
+    public function deleteDomain(int $id)
     {
         return new PostmarkResponse((array) $this->processRestRequest('DELETE', "/domains/{$id}"));
     }
